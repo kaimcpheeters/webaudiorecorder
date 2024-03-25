@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transcribe Audio</title>
+    <script src="/WavRecorder.js"></script>
+    <script src="/wavBlobUtil.js"></script>
+    <script src="/downloadUtil.js"></script>
+</head>
+<body>
+    <button id="startRecordButton">START RECORD</button>
+    <button id="stopRecordButton" disabled>STOP RECORD</button>
+    <button id="downloadButton" disabled>DOWNLOAD</button>
+    <button id="transcribeButton" disabled>TRANSCRIBE</button>
+    <div id="transcriptSection" style="margin-top:20px;">
+        <h2>Transcript:</h2>
+        <p id="transcript"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
